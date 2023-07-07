@@ -587,6 +587,10 @@ video {
   pointer-events: auto;
 }
 
+.\!visible {
+  visibility: visible !important;
+}
+
 .visible {
   visibility: visible;
 }
@@ -1753,11 +1757,6 @@ video {
   border-style: none;
 }
 
-.border-pink-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(236 72 153 / var(--tw-border-opacity));
-}
-
 .border-pink-400 {
   --tw-border-opacity: 1;
   border-color: rgb(244 114 182 / var(--tw-border-opacity));
@@ -1768,14 +1767,14 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
+
 .bg-pink-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 114 182 / var(--tw-bg-opacity));
-}
-
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
 .bg-slate-900 {
@@ -2400,6 +2399,14 @@ video {
   content: var(--tw-content);
 }
 
+.\[options\:IParseOptions\] {
+  options: IParseOptions;
+}
+
+.\[root\:Root\] {
+  root: Root;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2468,19 +2475,14 @@ video {
   border-color: rgb(190 24 93 / var(--tw-border-opacity));
 }
 
-.active\:bg-pink-500:active {
+.active\:bg-pink-400:active {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
 }
 
 .active\:bg-pink-700:active {
   --tw-bg-opacity: 1;
   background-color: rgb(190 24 93 / var(--tw-bg-opacity));
-}
-
-.active\:bg-pink-400:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
 }
 
 .active\:text-slate-900:active {
