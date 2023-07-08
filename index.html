@@ -15,22 +15,22 @@
     <div class="grid h-full place-items-center" style="min-height: 100svh">
       <main class="flex flex-col gap-4 h-fit mx-auto">
         <h1 class="text-pink-400 font-bold text-3xl">Beshiefy 🤸 🤸 🤸</h1>
-        <p class="text-pink-400">Enter text to beshiefy</p>
+        <p class="text-pink-400">Enter text to beshiefy:</p>
         <textarea
           id="input"
           rows="3"
           type="text"
-          class="rounded bg-pink-300 focus:outline-none px-2 py-1 w-80 font-medium"
+          class="bg-pink-300 rounded focus:outline-none px-2 py-1 w-80 font-medium"
         ></textarea>
         <div>
           <button
-          id="clear"
+            id="clear"
             class="border-2 active:bg-pink-700 active:border-pink-700 border-pink-400 font-bold px-4 bg-pink-400 py-1 text-slate-900 w-fit"
           >
             Clear
           </button>
           <button
-          id="start"
+            id="start"
             class="px-4 font-bold border-pink-400 active:bg-pink-400 py-1 text-pink-400 active:text-slate-900 border-2 w-fit"
           >
             Start Beshiefy
@@ -43,14 +43,13 @@
         </div>
         <div class="tooltip">
           <button
-          id="copyText"
-        onclick="copyText()"
-          class="rounded font-bold active:bg-pink-700 px-4 bg-pink-400 py-1 text-slate-900 w-fit"
-        >
-          Copy to Clipboard
-        </button>
+            id="copyText"
+            onclick="copyText()"
+            class="rounded font-bold active:bg-pink-700 px-4 bg-pink-400 py-1 text-slate-900 w-fit"
+          >
+            Copy to Clipboard
+          </button>
         </div>
-        
       </main>
     </div>
   </body>
