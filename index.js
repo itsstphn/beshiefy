@@ -1,8 +1,6 @@
 const beshiefyButton = document.querySelector("#start");
 const clearButton = document.querySelector("#clear");
 
-
-
 function beshiefyText(text) {
   const words = text.split(" ");
   const beshiefiedText = words.map((word) => word + " 🤸").join(" ");
@@ -24,24 +22,25 @@ beshiefyButton.addEventListener("click", () => {
   document.querySelector("#copyText").textContent = "Copy to Clipboard";
 });
 
-//copy to clipboard old method
+//copy to clipboard old method for compatibility
 function copyToClipboard(copyText) {
-  const textarea = document.createElement('textarea');
+  const textarea = document.createElement("textarea");
   textarea.value = copyText;
-  textarea.style.position = 'fixed';
+  textarea.style.position = "fixed";
   document.body.appendChild(textarea);
   textarea.select();
 
   try {
-    const successful = document.execCommand('copy');
-    const message = successful ? 'Copied to clipboard!' : 'Copy failed';
+    const successful = document.execCommand("copy");
+    const message = successful ? "Copied to clipboard!" : "Copy failed";
     console.log(message);
   } catch (err) {
-    console.error('Copy to clipboard failed:', err);
+    console.error("Copy to clipboard failed:", err);
   }
   document.body.removeChild(textarea);
 }
 
+// new method
 function copyText() {
   const copyText = document.querySelector("#output").textContent;
 
