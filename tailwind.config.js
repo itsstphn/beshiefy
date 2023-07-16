@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./**/*.{html,js}"],
-  safelist: ["bg-pink-300"],
+
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custompink': "#FF7BE5",
+        'customslate': "#010051"
+      },
+    },
   },
   plugins: [],
-}
-
+};

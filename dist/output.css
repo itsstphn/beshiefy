@@ -1757,9 +1757,9 @@ video {
   border-style: none;
 }
 
-.border-pink-400 {
+.border-custompink {
   --tw-border-opacity: 1;
-  border-color: rgb(244 114 182 / var(--tw-border-opacity));
+  border-color: rgb(255 123 229 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -1767,14 +1767,9 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-pink-300 {
+.bg-custompink {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-
-.bg-pink-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+  background-color: rgb(255 123 229 / var(--tw-bg-opacity));
 }
 
 .bg-slate-900 {
@@ -1785,6 +1780,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-customslate {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 0 81 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2072,14 +2072,19 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-pink-400 {
+.text-custompink {
   --tw-text-opacity: 1;
-  color: rgb(244 114 182 / var(--tw-text-opacity));
+  color: rgb(255 123 229 / var(--tw-text-opacity));
 }
 
 .text-slate-900 {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.text-customslate {
+  --tw-text-opacity: 1;
+  color: rgb(1 0 81 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2470,24 +2475,24 @@ video {
   text-align: center;
 }
 
-.active\:border-pink-700:active {
+.active\:border-custompink:active {
   --tw-border-opacity: 1;
-  border-color: rgb(190 24 93 / var(--tw-border-opacity));
+  border-color: rgb(255 123 229 / var(--tw-border-opacity));
 }
 
-.active\:bg-pink-400:active {
+.active\:bg-custompink:active {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
-}
-
-.active\:bg-pink-700:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+  background-color: rgb(255 123 229 / var(--tw-bg-opacity));
 }
 
 .active\:text-slate-900:active {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.active\:text-customslate:active {
+  --tw-text-opacity: 1;
+  color: rgb(1 0 81 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
