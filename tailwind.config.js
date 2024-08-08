@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors: {
         'custompink': "#FF7BE5",
-        'customslate': "#010051"
+        'customslate': "#010051",
+        'customgreen': "",
       },
     },
   },
