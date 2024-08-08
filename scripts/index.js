@@ -4,8 +4,8 @@ const j3j3fyButton = document.querySelector("#j3j3fy");
 
 // j3j3fy script
 const LETTER_MAP = {
-  a: [ '@', 'A', 'a', '4', 'Aa'],
-  b: ['B', 'V', 'Bb', 'b', 'v', 'bH', 'BvH'],
+  a: [ '@', 'A', 'a', '4'],
+  b: ['B', 'V',  'b', 'v', 'bH', ],
   c: ['c', 'C', 'cK', 'Ck'],
   d: ['d', 'D', , 'dH', 'Dh'],
   e: ['3', 'E',  'e'],
@@ -19,17 +19,17 @@ const LETTER_MAP = {
   m: ['m', 'M', ],
   n: ['n', 'N', ],
   o: ['0', 'o',  'O', '()'],
-  p: ['p', 'P', 'Pp', 'pH', 'Ph'],
-  q: ['q', 'Q', 'Qq', 'qH', 'Qh'],
-  r: ['r', 'R', 'rR', 'rH', 'Rh'],
-  s: ['S', 'Z', 'zZ', '$', 's', 'sS', '5'],
-  t: ['T', 't',   'tT', 'tH'],
+  p: ['p', 'P',  'pH', 'Ph'],
+  q: ['q', 'Q',  'qH', 'Qh'],
+  r: ['r', 'R',  'rH', 'Rh'],
+  s: ['S', 'Z',  '$', 's', '5'],
+  t: ['T', 't',  'tH'],
   u: ['u', 'U',  'uH', 'Uh', '|_|'],
   v: ['v', 'V',  'vH', 'Vh', '\\/'],
   w: ['w', 'W',  'wH', 'Wh'],
   x: ['x', 'X',  'xH', 'Xh'],
   y: ['y', 'Y',  'yH', 'Yh'],
-  z: ['z', 'Z', 'zH', 'Zh', 'zzZ'],
+  z: ['z', 'Z', 'zH', 'Zh'],
 }
 
 function beshiefyText(text) {
